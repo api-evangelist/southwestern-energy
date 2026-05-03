@@ -1,0 +1,56 @@
+{
+  "title": "Southwestern Energy Production Structure",
+  "description": "Hierarchical structure of Southwestern Energy natural gas exploration, production, and financial reporting data entities.",
+  "type": "object",
+  "structure": {
+    "operatingArea": {
+      "description": "A geographic shale operating area for SWN production",
+      "fields": {
+        "areaName": "string — e.g. Northeast Appalachia, Southwest Appalachia, Haynesville",
+        "shaleFormation": "string — Marcellus | Haynesville | Appalachian Basin | Other",
+        "netAcreage": "number — net acres held",
+        "grossAcreage": "number — gross acres held"
+      },
+      "children": {
+        "productionRecords": {
+          "description": "Quarterly or monthly gas production records",
+          "type": "array",
+          "items": {
+            "reportingPeriod": "string — YYYY-Q# or YYYY-MM",
+            "grossProductionBcf": "number",
+            "netProductionBcf": "number",
+            "dailyProductionMcfe": "number — Mcfe/d average",
+            "wellsOnProduction": "integer",
+            "wellsTurnedToSales": "integer",
+            "averageRealizedPriceMcfe": "number — USD/Mcfe",
+            "hedgePercentage": "number — percentage hedged"
+          }
+        },
+        "wells": {
+          "description": "Individual producing wells in the operating area",
+          "type": "array",
+          "items": {
+            "wellId": "string",
+            "wellName": "string",
+            "wellStatus": "string — Producing | Drilled | Completed | Shut-In | Plugged",
+            "spudDate": "date",
+            "completionDate": "date",
+            "ipRateMcfe": "number — initial production rate (Mcfe/d)",
+            "cumulativeProductionBcf": "number"
+          }
+        }
+      }
+    },
+    "reservesReport": {
+      "description": "Annual proved reserves disclosure",
+      "fields": {
+        "reportYear": "integer",
+        "provedReservesBcf": "number — total proved reserves",
+        "provedDevelopedReservesBcf": "number",
+        "provedUndevelopedReservesBcf": "number",
+        "reserveReplacementRatio": "number",
+        "findingAndDevelopmentCostMcfe": "number — USD/Mcfe"
+      }
+    }
+  }
+}

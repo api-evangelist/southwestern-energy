@@ -1,0 +1,91 @@
+vocabulary:
+  name: Southwestern Energy Vocabulary
+  description: >-
+    Domain vocabulary for Southwestern Energy Company (SWN), covering natural gas
+    exploration, production, reservoir engineering, shale operations, and energy
+    sector financial terminology. Following the 2024 merger, SWN operates as part
+    of Expand Energy Corporation, focused on the Marcellus and Haynesville shale plays.
+  tags:
+    - Natural Gas
+    - Oil And Gas
+    - Energy
+    - Fortune 500
+  terms:
+    - term: E&P (Exploration and Production)
+      definition: >-
+        The upstream segment of the natural gas industry involving the search for
+        hydrocarbon deposits and their extraction from subsurface reservoirs.
+      category: Operations
+    - term: Marcellus Shale
+      definition: >-
+        A sedimentary rock formation spanning West Virginia, Pennsylvania, and New York
+        that is one of the primary natural gas producing formations in the United States
+        and a major area of SWN's operations.
+      category: Geology
+    - term: Haynesville Shale
+      definition: >-
+        A natural gas-rich shale formation in northwestern Louisiana and eastern Texas
+        that represents a key producing area for Southwestern Energy's operations.
+      category: Geology
+    - term: Proved Reserves
+      definition: >-
+        Quantities of natural gas estimated with reasonable certainty to be commercially
+        recoverable from known reservoirs under existing economic conditions, as reported
+        in SEC filings.
+      category: Reserves
+    - term: Bcf (Billion Cubic Feet)
+      definition: >-
+        A unit of volume for natural gas equal to one billion cubic feet, used to
+        measure production volumes and reserve estimates.
+      category: Measurement
+    - term: Tcf (Trillion Cubic Feet)
+      definition: >-
+        A unit of volume for natural gas equal to one trillion cubic feet, typically
+        used to express total reserve estimates.
+      category: Measurement
+    - term: Horizontal Drilling
+      definition: >-
+        A well drilling technique that deviates from vertical to horizontal to
+        maximize the wellbore contact with a thin horizontal shale layer, increasing
+        production efficiency.
+      category: Operations
+    - term: Hydraulic Fracturing
+      definition: >-
+        A stimulation technique that pumps fluid at high pressure into a rock formation
+        to create fractures, enabling natural gas to flow more freely to the wellbore.
+      category: Operations
+    - term: Well Pad
+      definition: >-
+        A prepared surface site from which multiple horizontal wells are drilled,
+        reducing land surface disturbance and operational costs.
+      category: Infrastructure
+    - term: NGL (Natural Gas Liquids)
+      definition: >-
+        Hydrocarbon components that can be separated from natural gas in a processing
+        plant, including ethane, propane, butane, and natural gasoline.
+      category: Commodities
+    - term: Production Rate
+      definition: >-
+        The volume of natural gas produced per unit of time from a well or field,
+        typically measured in Mcfe/d (thousand cubic feet equivalent per day).
+      category: Operations
+    - term: Expand Energy
+      definition: >-
+        The combined company formed from the October 2024 merger of Chesapeake Energy
+        and Southwestern Energy, one of the largest natural gas producers in the US.
+      category: Corporate
+    - term: Hedging
+      definition: >-
+        Financial instruments used by SWN to reduce exposure to commodity price
+        volatility, locking in revenue on a portion of future production.
+      category: Finance
+    - term: Royalty Interest
+      definition: >-
+        A non-operating interest in an oil and gas lease entitling the holder to a
+        percentage of production revenue without bearing drilling or operating costs.
+      category: Legal
+    - term: Completion
+      definition: >-
+        The process of making a drilled well ready for production, including casing,
+        cementing, perforating, and hydraulic fracturing operations.
+      category: Operations

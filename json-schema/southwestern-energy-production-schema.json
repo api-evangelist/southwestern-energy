@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/southwestern-energy/json-schema/southwestern-energy-production-schema.json",
+  "title": "Southwestern Energy Natural Gas Production Record",
+  "description": "Natural gas production data for Southwestern Energy (SWN) wells and operating areas, reporting volumes in Bcf (billion cubic feet) and Mcfe/d (thousand cubic feet equivalent per day).",
+  "type": "object",
+  "properties": {
+    "reportingPeriod": {
+      "type": "string",
+      "description": "Reporting period in YYYY-Q# format (e.g., 2025-Q3) or YYYY-MM for monthly.",
+      "example": "2025-Q3"
+    },
+    "shalePlay": {
+      "type": "string",
+      "enum": ["Marcellus", "Haynesville", "Appalachian Basin", "Other"],
+      "description": "The shale formation or geographic operating area."
+    },
+    "grossProductionBcf": {
+      "type": "number",
+      "description": "Gross natural gas production volume in Bcf (billion cubic feet).",
+      "minimum": 0
+    },
+    "netProductionBcf": {
+      "type": "number",
+      "description": "Net production volume after royalties and interests in Bcf.",
+      "minimum": 0
+    },
+    "dailyProductionMcfe": {
+      "type": "number",
+      "description": "Average daily production in Mcfe/d (thousand cubic feet equivalent per day).",
+      "minimum": 0
+    },
+    "wellsOnProduction": {
+      "type": "integer",
+      "description": "Number of producing wells in this operating area.",
+      "minimum": 0
+    },
+    "wellsTurnedToSales": {
+      "type": "integer",
+      "description": "Number of new wells brought to sales production during the period.",
+      "minimum": 0
+    },
+    "netAcreage": {
+      "type": "number",
+      "description": "Net acreage held in this operating area.",
+      "minimum": 0
+    },
+    "averageRealizedPriceMcfe": {
+      "type": "number",
+      "description": "Average realized natural gas price per Mcfe in US dollars."
+    },
+    "hedgePercentage": {
+      "type": "number",
+      "description": "Percentage of production hedged via financial instruments.",
+      "minimum": 0,
+      "maximum": 100
+    }
+  },
+  "required": ["reportingPeriod", "shalePlay", "grossProductionBcf"]
+}

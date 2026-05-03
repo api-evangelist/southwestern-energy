@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "swn": "https://api-evangelist.github.io/southwestern-energy/vocab#",
+
+    "EnergyCompany": "schema:Corporation",
+    "NaturalGasWell": "schema:Product",
+    "GasReserve": "schema:QuantitativeValue",
+    "ProductionReport": "schema:Report",
+    "ShalePlay": "schema:Place",
+    "WellPad": "schema:Place",
+    "InvestorRelations": "schema:WebPage",
+    "SECFiling": "schema:Report",
+
+    "wellId": {
+      "@id": "swn:wellId",
+      "@type": "xsd:string"
+    },
+    "productionBcf": {
+      "@id": "swn:productionBcf",
+      "@type": "xsd:decimal"
+    },
+    "productionDate": {
+      "@id": "schema:startDate",
+      "@type": "xsd:date"
+    },
+    "reservesBcf": {
+      "@id": "swn:reservesBcf",
+      "@type": "xsd:decimal"
+    },
+    "shaleFormation": {
+      "@id": "swn:shaleFormation",
+      "@type": "xsd:string"
+    },
+    "wellStatus": {
+      "@id": "swn:wellStatus",
+      "@type": "xsd:string"
+    },
+    "grossAcreage": {
+      "@id": "swn:grossAcreage",
+      "@type": "xsd:decimal"
+    },
+    "netAcreage": {
+      "@id": "swn:netAcreage",
+      "@type": "xsd:decimal"
+    },
+    "royaltyInterest": {
+      "@id": "swn:royaltyInterest",
+      "@type": "xsd:decimal"
+    },
+    "hedgePercentage": {
+      "@id": "swn:hedgePercentage",
+      "@type": "xsd:decimal"
+    },
+    "filingType": {
+      "@id": "swn:filingType",
+      "@type": "xsd:string"
+    },
+    "filingDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "expandEnergyTickerSymbol": {
+      "@id": "schema:tickerSymbol",
+      "@type": "xsd:string"
+    }
+  }
+}

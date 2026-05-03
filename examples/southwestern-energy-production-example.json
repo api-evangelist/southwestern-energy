@@ -1,0 +1,12 @@
+{
+  "reportingPeriod": "2025-Q3",
+  "shalePlay": "Marcellus",
+  "grossProductionBcf": 218.4,
+  "netProductionBcf": 197.6,
+  "dailyProductionMcfe": 2147,
+  "wellsOnProduction": 1842,
+  "wellsTurnedToSales": 12,
+  "netAcreage": 534000,
+  "averageRealizedPriceMcfe": 2.31,
+  "hedgePercentage": 72.5
+}
