@@ -37,7 +37,7 @@ apis:
         url: https://ir.swn.com/resources/investor-faq/default.aspx
       - type: Shareholder Information
         url: https://www.swn.com/investors/shareholder-information/
-      - type: JSON Schema
+      - type: JSONSchema
         url: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/json-schema/southwestern-energy-production-schema.json
   - aid: southwestern-energy:expand-energy-investor-api
     name: Expand Energy Investor Relations API
@@ -67,7 +67,7 @@ common:
     url: https://www.linkedin.com/company/southwestern-energy
   - type: X
     url: https://twitter.com/SWNenergy
-  - type: JSON-LD Context
+  - type: JSONLDContext
     url: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/json-ld/southwestern-energy-context.jsonld
   - type: Vocabulary
     url: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/vocabulary/southwestern-energy-vocabulary.yml
