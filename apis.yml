@@ -57,6 +57,10 @@ apis:
       - type: Annual Report
         url: https://investors.expandenergy.com/static-files/e946a7e5-4ef1-4e8b-ba7b-f51506895db0
 common:
+  - type: DomainSecurity
+    url: security/southwestern-energy-domain-security.yml
+  - url: https://www.expandenergy.com/feed/
+    type: Blog
   - type: Website
     url: https://www.swn.com
   - type: Investor Relations
