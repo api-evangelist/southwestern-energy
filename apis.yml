@@ -29,6 +29,11 @@ tags:
   - Fortune 500
   - Natural Gas
   - Energy
+  - Oil and Gas
+tags_raw:
+  - Fortune 500
+  - Natural Gas
+  - Energy
   - Oil And Gas
 apis:
   - aid: southwestern-energy:southwestern-energy-investor-relations-api
