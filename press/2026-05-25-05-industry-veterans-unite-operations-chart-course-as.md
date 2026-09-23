@@ -1,7 +1,9 @@
 ---
 title: Industry Veterans Unite Operations, Chart Course As ...
 url: https://www.aogr.com/magazine/editors-choice/industry-veterans-unite-operations-chart-course-as-expand-energy
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Southwestern Energy" press release artificial intelligence'
 position: 5
 source: serpapi-google

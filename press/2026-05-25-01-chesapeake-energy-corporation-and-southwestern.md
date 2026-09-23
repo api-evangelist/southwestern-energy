@@ -1,7 +1,9 @@
 ---
 title: Chesapeake Energy Corporation and Southwestern ...
 url: https://www.prnewswire.com/news-releases/chesapeake-energy-corporation-and-southwestern-energy-company-combination-expected-to-close-in-the-first-week-of-october-302259328.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Southwestern Energy" press release artificial intelligence'
 position: 1
 source: serpapi-google
