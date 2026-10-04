@@ -48,6 +48,7 @@ tags_raw:
   - Oil And Gas
 apis:
   - aid: southwestern-energy:southwestern-energy-investor-relations-api
+    x-published: false
     name: Southwestern Energy Investor Relations API
     description: >-
       The Southwestern Energy investor relations portal provides financial data,
@@ -69,6 +70,7 @@ apis:
       - type: JSONSchema
         url: https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/json-schema/southwestern-energy-production-schema.json
   - aid: southwestern-energy:expand-energy-investor-api
+    x-published: false
     name: Expand Energy Investor Relations API
     description: >-
       Following the merger, Expand Energy Corporation's investor relations portal provides
